@@ -1,5 +1,5 @@
 {
-  "name": "@greenroom-robotics/eslint-config-greenroom",
+  "name": "@greenroom-robotics/eslint-config",
   "version": "0.0.1",
   "description": "Eslint config for typescript & prettier",
   "main": "./.eslintrc.js",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Greenroom-Robotics/eslint-config-greenroom"
+    "url": "https://github.com/Greenroom-Robotics/eslint-config"
   },
   "scripts": {
     "lint": "cd test && eslint .",
