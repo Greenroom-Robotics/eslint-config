@@ -1,6 +1,6 @@
 {
   "name": "@greenroom-robotics/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eslint config for typescript & prettier",
   "main": "./.eslintrc.js",
   "author": "Greenroom Robotics",
@@ -17,25 +17,25 @@
     "typescript": "*"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.2",
+    "@rushstack/eslint-patch": "^1.10.2",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-standard": "^17.1.0",
     "eslint-config-standard-typescript-prettier": "^6.0.0",
-    "eslint-plugin-only-warn": "^1.0.3",
-    "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "@typescript-eslint/eslint-plugin": "^5.30.5",
-    "@typescript-eslint/parser": "^5.30.5",
-    "eslint": "^8.23.1",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.1",
-    "prettier": "^2.7.1",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.8"
   },
   "devDependencies": {
-    "typescript": "~4.8.3"
+    "typescript": "~5.4.5"
   }
 }
