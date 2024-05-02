@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-standard-typescript-prettier/prettier')
+module.exports = require('@greenroom-robotics/eslint-config-standard-typescript-prettier/prettier')
